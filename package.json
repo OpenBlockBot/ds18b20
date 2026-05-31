@@ -1,6 +1,6 @@
 {
   "name": "ds18b20",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "ArthurZheng",
   "license": "MIT",
   "repository": {
@@ -27,13 +27,8 @@
       }
     },
     "extensionId": "ds18b20",
-    "supportDevice": [
-      "arduinoUno",
-      "arduinoNano",
-      "arduinoLeonardo",
-      "arduinoMega2560",
-      "arduinoEsp32",
-      "arduinoEsp8266"
+    "arch": [
+      "arduino-*"
     ],
     "iconURL": "./assets/ds18b20.png",
     "description": {

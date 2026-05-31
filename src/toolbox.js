@@ -1,8 +1,7 @@
 /* eslint-disable func-style */
 /* eslint-disable max-len */
 /* eslint-disable require-jsdoc */
-export default () => {
-    return `
+export default () => `
 <category name="%{BKY_DS18B20_CATEGORY}" id="DS18B20_CATEGORY" colour="#009393" secondaryColour="#007979">
     <block type="ds18b20_init" id="ds18b20_init">
         <field name="PIN">2</field>
@@ -22,4 +21,3 @@ export default () => {
         </value>
     </block>
 </category>`;
-};
