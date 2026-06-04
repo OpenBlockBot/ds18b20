@@ -23,7 +23,7 @@
     "name": {
       "formatMessage": {
         "id": "ds18b20.name",
-        "default": "DS18B20 Sensor"
+        "default": "DS18B20"
       }
     },
     "extensionId": "ds18b20",
